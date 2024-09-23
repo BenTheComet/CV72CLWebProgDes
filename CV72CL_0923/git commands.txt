@@ -1,0 +1,3 @@
+git status: megmutatja a mappa állapotát
+git add: hozzá adja a fáljt a staging area-hoz
+git commit -m "xy": feltölti a remote repoba a kiválasztott fáljokat xy néven
