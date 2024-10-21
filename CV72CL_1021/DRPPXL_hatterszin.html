@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Háttérszín, háttérkép beillesztése</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #9f9 url("hatter.jpg");
+            background-size: cover;
+            color: black; /* A szöveg fekete */
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #d9e8ff;
+        }
+
+        p {
+            color: black; /* A bekezdések szövege is fekete */
+            font-size: 16px;
+        }
+
+        .highlight {
+            color: yellow;
+            font-weight: bold;
+            text-align: center; /* Középre igazítva */
+            display: block; /* A blokk elemeket középre igazítja */
+            margin: 0 auto; /* Középre helyezés */
+            width: fit-content; /* A szöveg szélességének megfelelően */
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        blockquote {
+            color: #000; /* A blokk idézet szövege fekete */
+            font-style: italic;
+            text-align: left; /* Balra igazítva */
+            margin: 0;
+            text-align: justify; /* Sorkizárva */
+        }
+
+        .red {
+            color: red; /* Piros szín a "jelentését" szónak */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Háttérszín, háttérkép beillesztése</h1>
+
+    <h2>Mi az információ?</h2>
+    <p class="highlight">Az információ olyan fontos hír, tudósítás, ismeret, amely az emberben valamilyen bizonytalanságot, ismeretlenséget szüntet meg, old fel.<br>
+    <span style="border-bottom: 3px double;">Azokat az információkat, amelyekből valamilyen konkrét tényt tudunk meg adatnak is nevezzük.</span> <br>
+    Tehát, az információ értelmezett adat.</p>
+
+    <h2>Mi az információ?</h2>
+    <blockquote>
+        "Az információkat jelek segítségével rögzítjük. A jelek nagyon sokfélék lehetnek. Vannak olyan egyszerű jelek, amelyet majdnem mindenki megért (pl.: integetés búcsúzáskor). 
+        Vannak olyan jelek is, amelyeket az embereknek csak egy csoportja ért. Ilyen jelekből állnak a titkosírások, de sok más jelet is csak tanulás és gyakorlás után értünk meg 
+        (pl. a Morse-jeleztáblák, jelnyelv, stb.). A jelekkel rögzített információkat csak akkor értjük, csak akkor tudjuk "venni", ha ismerjük a jelek 
+        <span class="red">jelentését</span>." 
+        (Forrás: https://informatika.gportal.eu)
+    </blockquote>
+
+    <p>Ez egy sor, ami a bekezdés után van.</p>
+
+</body>
+</html>

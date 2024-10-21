@@ -1,0 +1,5 @@
+-git status
+-git add "DRPPXL_0923"
+git commit -m "2.Prac"
+git push
+-frissiteni az oldalt!
