@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+
+
+<head>
+    <title>Étlap</title>
+    <meta charset="UTF-8">
+</head>
+   
+   <style> 
+        body {
+             margin: 0;
+             background-color: rgb(22, 22, 22);
+             color: white;
+             font-family: Arial, sans-serif;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        .centered {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-bottom: 25px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        td {
+            font-size: 17pt;
+            text-align: center;
+            width: 33%;
+        }
+        
+        .content {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;    
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section, footer {
+            color: white;
+        }
+
+        a:link {
+            color: white;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: lightgray;
+        }
+
+        a:hover {
+            color: lightgray;
+        }
+
+        a:active {
+            color: lightgray;
+        }
+    </style>
+
+<body>
+    <div class="content">
+        <header>
+            <a href="kezdölap.html"><img src="res.png"  alt="THE" class="centered"></a>
+                <table width="100%">
+                <tr>
+                    <td> <a href="kezdölap.html">Kezdőlap</a></td>
+                    <td> <a href="idöpont.html">ídőpont Foglalás</a></td>
+                </tr>
+            </table>
+        </header>
+            <br><br>
+        <section>
+    <h1 style="display: flex; flex-direction: column; align-items: center;">Ételek és áraik</h1>
+    <table style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <thead>
+            <tr>
+                <th>Étel</th>
+                <th>Ár (Ft)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pizza Margherita</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Hamburger</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Gulyásleves</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Sushi tál</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>Tiramisu</td>
+                <td>1200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
