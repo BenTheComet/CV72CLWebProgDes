@@ -1,26 +1,103 @@
 <!DOCTYPE html>
-<head>
-    <title>:(</title>
-    <meta charset="UTF-8">
-</head>
-<style>
-    body {
-        background-color: rgb( 237, 239, 238);
-        font-family: Tahoma, sans-serif;
-    }
-    .centered {
+<html lang="hu">
+    <style>
+        body {
+            background-color: rgb( 22, 22, 22);
+            font-family: Tahoma, sans-serif;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        .centered {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 45%;
+            width: 50%;
             margin-bottom: 25px;
-    }
-</style>
+        }
+
+        footer {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        td {
+            font-size: 17pt;
+            text-align: center;
+            width: 33%;
+        }
+        
+        .content {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;    
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section, footer {
+            color: white;
+            text-align: center;
+        }
+
+        a:link {
+            color: white;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: lightgray;
+        }
+
+        a:hover {
+            color: lightgray;
+        }
+
+        a:active {
+            color: lightgray;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Időpontfoglalás</title>
+</head>
+<header>
+    <a href="kezdölap.html"><img src="res.png"  alt="THE" class="centered"></a>
+        <table width="100%">
+        <tr>
+            <td> <a href="kezdölap.html">Kezdőlap</a></td>
+            <td> <a href="étlap.html">Étlap</a></td>
+            <td> <a href="történet.html">Étterrem Története</a></td>
+        </tr>
+    </table>
+</header>
 <body>
-    <div>
-        <header>
-            <a href="kezdölap.html"><img src="404.png"  alt="THE" class="centered"></a>
-        </header>
-    </div>
+    <section>
+    <h1>Időpontfoglalás</h1>
+    <form action="köszönet.html" method="post">
+         <label for="nev">Név:</label>
+         <input type="text" id="nev" name="nev">
+         <br><br>
+
+        <label for="idopont">Időpont:</label>
+        <input type="text" id="idopont" name="idopont">
+        <br><br>
+
+        <label for="fo">Fő száma:</label>
+        <input type="text" id="fo" name="fo">
+        <br><br>
+
+        <button type="submit">Foglalás</button>
+    </form>
+</section>
 </body>
 </html>
