@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Képek Beillesztése</title>
+
+<style>
+    body {
+        width: 400px;
+    }
+    p {
+        text-align: justify;
+        width: 400px;
+    }
+    #gyumolcs {
+        float: left;
+        border: 5px solid red;
+    }
+    #the {
+
+        width: 400px;
+    }
+    p.unithe {
+        display: inline;
+        font-style: italic;
+    }
+    link { 
+        display: block;
+    }
+</style>
+
+</head>
+<body>
+    
+    <h1>Képek beillesztése és formázása</h1>
+
+    
+    <img src="kepek/gyümölcs.jpg" id="gyumolcs"  alt="gyümölcs">
+    <p>Ez egy szöveg, amit arra használiunk,
+        hogy a kép körül jelenjen meg.
+        Ha sikerül akkor a kép körül lesz folyatva a szöveggel
+        (legalábbis a kép két oldala).
+        Így már sokkal szebben be tudunk illeszteni képeket a weblapunkra!
+        <a href="https://www.unithe.hu/moodle" target="_blank">Kattintson ide,</a>
+        ha meg szeretnéd nyitni az
+        <span class="unithe">unithe moodle</span> weblapot
+    </p>
+        <a class="link" href="https://www.unithe.hu"  target="_blank">Ide kattintva megnyílik az unithe oldal</a><br>
+        <a class="link" href="the.html" target="_blank">Kattints ide, ha meg szeretnéd nyitni az unithe.hu weblapot</a><br>
+        <a class="link" href="gyumolcs.html" target="_blank">Ide kattintva megjelenik a gyümölcs kép.</a><br>
+    
+    <br><br>
+    <img src="kepek/the.jpg" id="the" alt="THE">
+    
+</body>
+</html>
