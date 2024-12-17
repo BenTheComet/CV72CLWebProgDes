@@ -29,7 +29,7 @@
     }
     ?>
 
-    <a href="BLCL2O_urlap.html">Vissza az űrlap</a>
+    <a href="CV72CL_urlap.html">Vissza az űrlap</a>
 
 </body>
 </html>
